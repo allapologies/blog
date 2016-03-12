@@ -1,27 +1,38 @@
-export const articles = [
-    {
-        title: 'My first article',
-        body: 'Lorem Ipsum',
-        id: 1,
-        comments: [1,2]
-    },{
-        title: 'Other Article',
-        body: 'Some other text',
-        comments: [3],
-        id: 2
-    },{
-        title: 'Other Article!!!!',
-        body: 'Some other text',
-        id: 3
-    },{
-        title: 'Other Article????',
-        body: 'Some other text',
-        id: 4
-    }
-]
-
-export const comments = [
-    {text: 'hello', id: 1},
-    {text: 'other comment', id: 2},
-    {text: 'some new comment', id: 3}
+export const fixtures = [  {
+    title: 'My first article',
+    body: 'Lorem Ipsum',
+    id: 1,
+    comments: [
+      {text: '1 comment for first article', id: 1},
+      {text: '2 comment for first article', id: 2},
+      {text: '3 comment for first article', id: 3}
+    ]
+  },{
+    title: 'Other Article',
+    body: 'Some other text',
+    id: 2,
+    comments: [
+      {text: '4 comment', id: 1},
+      {text: '5 comment', id: 2},
+      {text: '6 comment', id: 3}
+    ]
+  },{
+    title: 'Other Article!!!!',
+    body: 'Some other text',
+    id: 3,
+    comments: [
+      {text: '7 comment', id: 1},
+      {text: '8 comment', id: 2},
+      {text: '9 comment', id: 3}
+    ]
+  },{
+    title: 'Other Article????',
+    body: 'Some other text',
+    id: 4,
+    comments: [
+      {text: '10 comment', id: 1},
+      {text: '11 comment', id: 2},
+      {text: '12 comment', id: 3}
+    ]
+  }
 ]
